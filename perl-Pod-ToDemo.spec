@@ -9,7 +9,7 @@ Summary:	Pod::ToDemo - writes a demo program from a tutorial POD
 Summary(pl):	Pod::ToDemo - tworzenie demonstracyjnego programu z tutorialu POD
 Name:		perl-Pod-ToDemo
 Version:	0.22
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,7 +20,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Module-Build
 %if %{with tests}
-BuildRequires:	perl(Test::Exception)
+BuildRequires:	perl-Test-Exception
 BuildRequires:	perl(Test::Simple) >= 0.47
 %endif
 BuildArch:	noarch
