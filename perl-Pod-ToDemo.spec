@@ -38,8 +38,8 @@ and it will write a bare-bones demo program called sdl_demo.pl, based
 on the tutorial.
 
 %description -l pl
-Pod::ToDemo pozwala na napisanie modu³ów POD s³u¿acych jako tutoriale
-potrafi±ce wypisaiæ demonstracyjneg programy je¶li wywo³ane
+Pod::ToDemo pozwala na pisanie modu³ów POD s³u¿±cych jako tutoriale,
+potrafi±ce wypisaæ demonstracyjne programy, je¶li zostan± wywo³ane
 bezpo¶rednio. To znaczy, je¶li SDL::Tutorial jest tutorialem
 dotycz±cym pisania podstawowych aplikacji korzystaj±cych z SDL w
 Perlu, mo¿liwe jest wywo³anie go jako:
