@@ -8,13 +8,13 @@
 Summary:	Pod::ToDemo - writes a demo program from a tutorial POD
 Summary(pl):	Pod::ToDemo - tworzenie demonstracyjnego programu z tutorialu POD
 Name:		perl-Pod-ToDemo
-Version:	0.10
+Version:	0.21
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c30f49843085e63beab7bc5645d31d84
+# Source0-md5:	6a93ec17627bce5baff709606276dc55
 URL:		http://search.cpan.org/dist/Pod-ToDemo/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
