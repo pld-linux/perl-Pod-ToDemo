@@ -53,23 +53,19 @@ programem stworzonym na podstawie tutoriala.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
-%{__make}
+%{__perl} Build.PL \
+	installdirs=vendor \
+	destdir=$RPM_BUILD_ROOT
+./Build
 
-%{?with_tests:%{__make} test}
+%{?with_tests:./Build test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT{%{perl_vendorlib}/Pod,%{_mandir}/man3}
 
-# hmm, doesn't work ?
-#%{__make} install \
-#	DESTDIR=$RPM_BUILD_ROOT
-
-install blib/lib/Pod/*.pm $RPM_BUILD_ROOT%{perl_vendorlib}/Pod
-install blib/libdoc/*pm $RPM_BUILD_ROOT%{_mandir}/man3
+./Build install 
 
 %clean
 rm -rf $RPM_BUILD_ROOT
