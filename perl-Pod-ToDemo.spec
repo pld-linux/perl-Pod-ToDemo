@@ -18,6 +18,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 URL:		http://search.cpan.org/dist/Pod-ToDemo/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-Module-Build
 %if %{with tests}
 BuildRequires:	perl(Test::Exception)
 BuildRequires:	perl(Test::Simple) >= 0.47
