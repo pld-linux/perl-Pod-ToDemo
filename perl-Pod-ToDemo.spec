@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without  tests           # do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Pod
@@ -32,7 +32,7 @@ tutorials which can write out demo programs if they're invoked
 directly. That is, while SDL::Tutorial is a tutorial on writing
 beginner SDL applications with Perl, you can invoke it as:
 
-        $ perl -MSDL::Tutorial sdl_demo.pl
+	$ perl -MSDL::Tutorial sdl_demo.pl
 
 and it will write a bare-bones demo program called sdl_demo.pl, based
 on the tutorial.
@@ -44,7 +44,7 @@ bezpo¶rednio. To znaczy, je¶li SDL::Tutorial jest tutorialem
 dotycz±cym pisania podstawowych aplikacji korzystaj±cych z SDL w
 Perlu, mo¿liwe jest wywo³anie go jako:
 
-        $ perl -MSDL::Tutorial sdl_demo.pl
+	$ perl -MSDL::Tutorial sdl_demo.pl
 
 w wyniku czego otrzymamy plik sdl_demo.pl bêd±cy demonstracyjnym
 programem stworzonym na podstawie tutoriala.
