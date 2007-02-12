@@ -6,7 +6,7 @@
 %define		pdir	Pod
 %define		pnam	ToDemo
 Summary:	Pod::ToDemo - writes a demo program from a tutorial POD
-Summary(pl):	Pod::ToDemo - tworzenie demonstracyjnego programu z tutorialu POD
+Summary(pl.UTF-8):   Pod::ToDemo - tworzenie demonstracyjnego programu z tutorialu POD
 Name:		perl-Pod-ToDemo
 Version:	1.01
 Release:	1
@@ -37,16 +37,16 @@ beginner SDL applications with Perl, you can invoke it as:
 and it will write a bare-bones demo program called sdl_demo.pl, based
 on the tutorial.
 
-%description -l pl
-Pod::ToDemo pozwala na pisanie modu³ów POD s³u¿±cych jako tutoriale,
-potrafi±ce wypisaæ demonstracyjne programy, je¶li zostan± wywo³ane
-bezpo¶rednio. To znaczy, je¶li SDL::Tutorial jest tutorialem
-dotycz±cym pisania podstawowych aplikacji korzystaj±cych z SDL w
-Perlu, mo¿liwe jest wywo³anie go jako:
+%description -l pl.UTF-8
+Pod::ToDemo pozwala na pisanie moduÅ‚Ã³w POD sÅ‚uÅ¼Ä…cych jako tutoriale,
+potrafiÄ…ce wypisaÄ‡ demonstracyjne programy, jeÅ›li zostanÄ… wywoÅ‚ane
+bezpoÅ›rednio. To znaczy, jeÅ›li SDL::Tutorial jest tutorialem
+dotyczÄ…cym pisania podstawowych aplikacji korzystajÄ…cych z SDL w
+Perlu, moÅ¼liwe jest wywoÅ‚anie go jako:
 
 	$ perl -MSDL::Tutorial sdl_demo.pl
 
-w wyniku czego otrzymamy plik sdl_demo.pl bêd±cy demonstracyjnym
+w wyniku czego otrzymamy plik sdl_demo.pl bÄ™dÄ…cy demonstracyjnym
 programem stworzonym na podstawie tutoriala.
 
 %prep
