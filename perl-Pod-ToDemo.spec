@@ -6,7 +6,7 @@
 %define		pdir	Pod
 %define		pnam	ToDemo
 Summary:	Pod::ToDemo - writes a demo program from a tutorial POD
-Summary(pl.UTF-8):   Pod::ToDemo - tworzenie demonstracyjnego programu z tutorialu POD
+Summary(pl.UTF-8):	Pod::ToDemo - tworzenie demonstracyjnego programu z tutorialu POD
 Name:		perl-Pod-ToDemo
 Version:	1.01
 Release:	1
