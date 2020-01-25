@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Pod
 %define		pnam	ToDemo
 Summary:	Pod::ToDemo - writes a demo program from a tutorial POD
