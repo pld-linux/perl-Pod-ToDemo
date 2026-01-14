@@ -8,7 +8,7 @@ Summary:	Pod::ToDemo - writes a demo program from a tutorial POD
 Summary(pl.UTF-8):	Pod::ToDemo - tworzenie demonstracyjnego programu z tutorialu POD
 Name:		perl-Pod-ToDemo
 Version:	1.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
